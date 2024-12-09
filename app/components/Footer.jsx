@@ -6,7 +6,7 @@ import footImg from "../../public/footImage.png";
 import map1 from "../../public/Frame (1).png";
 const Footer = () => {
   return (
-    <div className="h-[387px] bg-[#17414F]">
+    <div className="h-[387px] bg-[#17414F] mt-5">
       <div className="w-[1548px] mx-auto">
         <div className="grid grid-cols-3 gap-10 items-center pt-5 pb-10">
           <div className="flex justify-center items-center bg-[#215D72]  w-[435px] h-[100px] rounded-2xl">
