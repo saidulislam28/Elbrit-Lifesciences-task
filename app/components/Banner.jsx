@@ -8,7 +8,7 @@ import Benefit from "./Benefit";
 const Banner = () => {
   return (
     <div className="relative">
-      <div className="bg-[#E2F5FB] pb-0 lg:pb-[200px] h-full lg:h-[900px] mb-10 lg:mb-[400px]"> {/* Added bottom padding */}
+      <div className="bg-[#E2F5FB] pb-0 lg:pb-[200px] h-full lg:h-[900px] mb-10 lg:mb-[500px]"> {/* Added bottom padding */}
         <h1 className="font-bold  text-2xl lg:text-8xl text-center py-10 text-[#003569] tracking-[8px] lg:tracking-[16px]">
           Essential Vitamins
         </h1>
@@ -62,6 +62,15 @@ const Banner = () => {
                 </p>
               </div>
             </div>
+          </div>
+        </div>
+
+{/* rounded  */}
+
+        <div className="max-w-5xl mx-auto flex items-center justify-center lg:justify-start gap-2 mt-16">
+          <div className="w-10 h-10 rounded-full bg-[#A6B8CA]">
+          </div>
+          <div className="w-10 h-10 rounded-full bg-[#A6B8CA]">
           </div>
         </div>
         
