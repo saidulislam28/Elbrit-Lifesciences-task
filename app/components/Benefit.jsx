@@ -49,9 +49,9 @@ const Benefit = () => {
 
 
   return (
-    <div className="max-w-[1464px] mx-auto h-[586px] bg-[#17414F] rounded-[80px]  relative">
+    <div className="max-w-[1464px] mx-auto  h-[1600px] lg:h-[586px] bg-[#17414F] rounded-[80px]  relative">
       <div className="absolute -top-16 w-full">
-        <div className=" flex justify-between gap-5 max-w-5xl mx-auto">
+        <div className=" flex flex-col lg:flex-row justify-between gap-5 max-w-5xl mx-auto">
           {
             benefitData?.slice(0, 3).map(data=>(<div key={data.id} className="flex flex-col justify-center items-center">
               <div className="w-[130px] h-[130px] rounded-full bg-white flex items-center justify-center">
@@ -72,7 +72,7 @@ const Benefit = () => {
         </div>
 
 
-        <div className=" flex justify-between gap-5 max-w-5xl mx-auto mt-10">
+        <div className=" flex flex-col lg:flex-row justify-between gap-5 max-w-5xl mx-auto mt-10">
           {benefitData?.slice(3, 6).map(data=>( <div key={data.id} className="flex flex-col justify-center items-center">
             <div className="w-[130px] h-[130px] rounded-full bg-white flex items-center justify-center">
               <Image src={data.image} alt="" />

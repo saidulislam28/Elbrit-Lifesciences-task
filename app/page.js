@@ -8,7 +8,7 @@ import Ingredients from "./components/Ingredients";
 
 export default function Home() {
   return (
-    <div>
+    <div className="p-5">
       <Header></Header>
     
       <Banner></Banner>

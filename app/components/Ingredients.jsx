@@ -9,7 +9,7 @@ import image6 from "../../public/image6.png";
 const Ingredients = () => {
   return (
     <div className="max-w-6xl mx-auto my-20">
-      <div className="grid grid-cols-10 gap-4">
+      <div className="grid grid-cols-1 lg:grid-cols-10 gap-4">
         {/* card  */}
         <div className="col-span-4 flex flex-col gap-5 text-start">
           <h5 className="text-[#003569] font-semibold">INGREDIENTS</h5>
@@ -39,9 +39,9 @@ const Ingredients = () => {
         <div className="col-span-3 relative">
           <Image className="rounded-xl" src={image2} alt=""></Image>
           <div className="absolute top-5 left-4">
-            <h2 className="text-2xl font-semibold text-[#2D3F59]">Vitamin C</h2>
+            <h2 className="text-2xl font-semibold text-[#2D3F59]">Vitamin B3</h2>
             <p className="mt-2 font-medium text-lg text-[#727272]">
-              Vitamin C as ascorbic acid
+            Niacin for healthy gut and skin
             </p>
           </div>
           <p className="underline text-[#003569] font-semibold absolute bottom-5 left-4">
@@ -49,15 +49,14 @@ const Ingredients = () => {
           </p>
         </div>
       </div>
-      <div className="grid grid-cols-10 gap-5 mt-5">
+      <div className="grid grid-cols-1 lg:grid-cols-10 gap-5 mt-5">
         {/* card  */}
         <div className="col-span-3 relative">
-          <Image className="rounded-xl" src={image2} alt=""></Image>
+          <Image className="rounded-xl" src={image3} alt=""></Image>
           <div className="absolute top-5 left-4">
-            <h2 className="text-2xl font-semibold text-[#2D3F59]">Vitamin C</h2>
+            <h2 className="text-2xl font-semibold text-[#2D3F59]">Magnesium</h2>
             <p className="mt-2 font-medium text-lg text-[#727272]">
-              Vitamin C as ascorbic acid
-            </p>
+            Boost energy and support muscle function         </p>
           </div>
           <p className="underline text-[#003569] font-semibold absolute bottom-5 left-4">
             See More
@@ -65,12 +64,11 @@ const Ingredients = () => {
         </div>
        {/* card  */}
        <div className="col-span-3 relative">
-          <Image className="rounded-xl" src={image2} alt=""></Image>
+          <Image className="rounded-xl" src={image4} alt=""></Image>
           <div className="absolute top-5 left-4">
-            <h2 className="text-2xl font-semibold text-[#2D3F59]">Vitamin C</h2>
+            <h2 className="text-2xl font-semibold text-[#2D3F59]">Hyaluronic Acid</h2>
             <p className="mt-2 font-medium text-lg text-[#727272]">
-              Vitamin C as ascorbic acid
-            </p>
+            For smooth, supple and soft skin!            </p>
           </div>
           <p className="underline text-[#003569] font-semibold absolute bottom-5 left-4">
             See More
@@ -78,12 +76,11 @@ const Ingredients = () => {
         </div>
        {/* card  */}
        <div className="col-span-3 relative">
-          <Image className="rounded-xl" src={image2} alt=""></Image>
+          <Image className="rounded-xl" src={image5} alt=""></Image>
           <div className="absolute top-5 left-4">
-            <h2 className="text-2xl font-semibold text-[#2D3F59]">Vitamin C</h2>
+            <h2 className="text-2xl font-semibold text-[#2D3F59]">Lactobacillus</h2>
             <p className="mt-2 font-medium text-lg text-[#727272]">
-              Vitamin C as ascorbic acid
-            </p>
+            Invigorate your gut microbiome </p> 
           </div>
           <p className="underline text-[#003569] font-semibold absolute bottom-5 left-4">
             See More
@@ -91,8 +88,8 @@ const Ingredients = () => {
         </div>
 
         {/* card  */}
-        <div className="col-span-1">
-          <Image src={image6} alt="" />
+        <div className="col-span-1 flex lg:fixed justify-center ml-5 lg:ml-0 w-full">
+          <Image className="rotate-90 transform" src={image6} alt="" />
         </div>
       </div>
     </div>
